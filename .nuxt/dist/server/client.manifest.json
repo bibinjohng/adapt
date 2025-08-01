@@ -1,0 +1,18 @@
+{
+  "@vite/client": {
+    "prefetch": true,
+    "isEntry": true,
+    "file": "@vite/client",
+    "css": [],
+    "module": true,
+    "resourceType": "script"
+  },
+  "/Users/bibinjohn/WORKS/Creative 4/Adapt Smart Homes/project/adapt-smarthomes/app/node_modules/nuxt/dist/app/entry.async.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "isEntry": true,
+    "file": "/Users/bibinjohn/WORKS/Creative 4/Adapt Smart Homes/project/adapt-smarthomes/app/node_modules/nuxt/dist/app/entry.async.js"
+  }
+}

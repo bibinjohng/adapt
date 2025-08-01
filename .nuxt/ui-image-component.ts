@@ -1,0 +1,1 @@
+export { default } from "/Users/bibinjohn/WORKS/Creative 4/Adapt Smart Homes/project/adapt-smarthomes/app/node_modules/@nuxt/image/dist/runtime/components/NuxtImg.vue";
