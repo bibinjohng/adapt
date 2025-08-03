@@ -9,4 +9,10 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/', // change if you're deploying in a subfolder
   },
+  nitro: {
+    preset: 'static',
+    output: {
+      dir: 'dist'
+    }
+  }
 });
