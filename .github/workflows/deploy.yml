@@ -19,11 +19,13 @@ jobs:
       - name: Generate static site
         run: yarn generate
 
-      - name: Deploy via FTP
+      - name: Deploy via FTPS
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.CPANEL_FTP_HOST }}
           username: ${{ secrets.CPANEL_FTP_USER }}
           password: ${{ secrets.CPANEL_FTP_PASS }}
+          protocol: ftps
           local-dir: dist/
           server-dir: public_html/
+
