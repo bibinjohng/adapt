@@ -17,7 +17,9 @@
   <section class="px-4 py-10 max-w-xl mx-auto text-gray-800">
     <div class="text-center mb-6">
       <p>
-        We're happy to talk about SDA options tailored to your needs. <br />
+        We're happy to talk about SDA options tailored to your needs. <br /><br />
+        By collaborating with Adapt smarthomes, you invest in a workforce that fosters a thriving environment for yourself or your loved ones. Our unwavering commitment to quality ensures that you have the resources needed to deliver on your promise of exceptional housing.
+        <br /><br />
         <strong>Phone:</strong>
         <a href="tel:0426018899" class="text-[#1181c3] hover:underline">0426 018 899</a>
       </p>
