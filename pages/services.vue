@@ -49,19 +49,19 @@ const toggle = (index) => {
 const features = [
   {
     title: '1. Accessibility',
-    content: 'Our homes are built with ramps, wide doorways, step-free entries, and modified bathrooms to ensure ease of mobility and use for all residents.'
+    content: 'SDA homes are designed with features that cater to various disabilities. This includes ramps, wider doorways, step-free access, and modified bathrooms to accommodate individuals with mobility impairments, including those who use wheelchairs. Features include level entryways or ramps for easy access to the home, accessible bathrooms with handrails, lowered sinks, and showers with seats, adjustable kitchen counters and accessible appliances.'
   },
   {
     title: '2. Personalized Support',
-    content: 'Each home is tailored to the resident’s support needs — whether minimal help or 24/7 care, we adapt to enable comfortable living.'
+    content: 'These homes are equipped with specialized support options to help people manage daily living tasks, such as personal care, meal preparation, and household chores. The level of support can be tailored to the needs of each individual, ranging from minimal assistance to more intensive care.'
   },
   {
     title: '3. Technology Integration',
-    content: 'From voice-activated lighting to remote-controlled doors and emergency alerts, technology is built into our homes to enhance independence.'
+    content: 'Many SDA homes integrate assistive technologies like smart home systems, environmental controls, and emergency alert systems. These features help improve independence and safety by allowing individuals to control various aspects of their home environment, such as lighting, temperature, and doors, often through voice commands or remote control.'
   },
   {
     title: '4. Safety and Security',
-    content: 'Smart locks, fall sensors, accessible alarms, and motion detection systems create a secure living space with peace of mind.'
+    content: 'These homes often include enhanced safety measures, such as automated lighting, motion detectors, fall detection sensors, and smart door locks. These systems are designed to keep residents safe while allowing them to live as independently as possible. Fire safety systems such as alarms that are accessible to individuals with sensory impairments (e.g., visual alarms).'
   },
   {
     title: '5. Accommodation Types',
@@ -69,15 +69,15 @@ const features = [
   },
   {
     title: '6. Social and Community Integration',
-    content: 'Our homes are placed close to essential services and transport, encouraging community interaction and inclusion.'
+    content: 'SDA homes are often located in areas that allow residents to engage with their local community. This could include proximity to public transport, shops, parks, and other social activities. The goal is to foster inclusion and participation in society.'
   },
   {
     title: '7. Individual Choice and Control',
-    content: 'Residents have control over how they live, with adaptable spaces and remote assistance options built in.'
+    content: 'One of the main objectives of SDA homes is to give individuals with disabilities more control over where and how they live. The NDIS allows participants to choose their preferred SDA home and location, ensuring it suits their needs. Modifications to meet the specific needs of the individual, such as adapted furniture or adjustable equipment. The ability to adjust spaces based on evolving needs over time. Options for independent living with remote monitoring or assistance, enabling residents to maintain autonomy while still having access to support if needed. Specialized equipment to assist with daily tasks like cooking, bathing, or mobility.'
   },
   {
     title: '8. Space and Layout',
-    content: 'Open-plan design, support-staff space, and accessible outdoor areas ensure comfort and flexibility for all.'
+    content: 'Open-plan designs to reduce obstacles and allow easy movement. Sufficient space for caregivers or support staff to assist residents. Separate living and sleeping areas, tailored to the individual’s needs. Outdoor Access—Accessible gardens or outdoor spaces, providing a safe and enjoyable environment for relaxation or recreation. Pathways for easy navigation by wheelchair or mobility devices.'
   }
 ]
 </script>

@@ -15,6 +15,8 @@ interface _GlobalComponents {
       'AppFeatureTab': typeof import("../components/AppFeatureTab.vue")['default']
     'AppFooter': typeof import("../components/AppFooter.vue")['default']
     'AppHeader': typeof import("../components/AppHeader.vue")['default']
+    'CoreValues': typeof import("../components/CoreValues.vue")['default']
+    'WhyChooseUs': typeof import("../components/WhyChooseUs.vue")['default']
     'UAccordion': typeof import("../node_modules/@nuxt/ui/dist/runtime/components/Accordion.vue")['default']
     'UAlert': typeof import("../node_modules/@nuxt/ui/dist/runtime/components/Alert.vue")['default']
     'UApp': typeof import("../node_modules/@nuxt/ui/dist/runtime/components/App.vue")['default']
@@ -102,6 +104,8 @@ interface _GlobalComponents {
       'LazyAppFeatureTab': LazyComponent<typeof import("../components/AppFeatureTab.vue")['default']>
     'LazyAppFooter': LazyComponent<typeof import("../components/AppFooter.vue")['default']>
     'LazyAppHeader': LazyComponent<typeof import("../components/AppHeader.vue")['default']>
+    'LazyCoreValues': LazyComponent<typeof import("../components/CoreValues.vue")['default']>
+    'LazyWhyChooseUs': LazyComponent<typeof import("../components/WhyChooseUs.vue")['default']>
     'LazyUAccordion': LazyComponent<typeof import("../node_modules/@nuxt/ui/dist/runtime/components/Accordion.vue")['default']>
     'LazyUAlert': LazyComponent<typeof import("../node_modules/@nuxt/ui/dist/runtime/components/Alert.vue")['default']>
     'LazyUApp': LazyComponent<typeof import("../node_modules/@nuxt/ui/dist/runtime/components/App.vue")['default']>
@@ -195,6 +199,8 @@ declare module 'vue' {
 export const AppFeatureTab: typeof import("../components/AppFeatureTab.vue")['default']
 export const AppFooter: typeof import("../components/AppFooter.vue")['default']
 export const AppHeader: typeof import("../components/AppHeader.vue")['default']
+export const CoreValues: typeof import("../components/CoreValues.vue")['default']
+export const WhyChooseUs: typeof import("../components/WhyChooseUs.vue")['default']
 export const UAccordion: typeof import("../node_modules/@nuxt/ui/dist/runtime/components/Accordion.vue")['default']
 export const UAlert: typeof import("../node_modules/@nuxt/ui/dist/runtime/components/Alert.vue")['default']
 export const UApp: typeof import("../node_modules/@nuxt/ui/dist/runtime/components/App.vue")['default']
@@ -282,6 +288,8 @@ export const NuxtRouteAnnouncer: typeof import("../node_modules/nuxt/dist/app/co
 export const LazyAppFeatureTab: LazyComponent<typeof import("../components/AppFeatureTab.vue")['default']>
 export const LazyAppFooter: LazyComponent<typeof import("../components/AppFooter.vue")['default']>
 export const LazyAppHeader: LazyComponent<typeof import("../components/AppHeader.vue")['default']>
+export const LazyCoreValues: LazyComponent<typeof import("../components/CoreValues.vue")['default']>
+export const LazyWhyChooseUs: LazyComponent<typeof import("../components/WhyChooseUs.vue")['default']>
 export const LazyUAccordion: LazyComponent<typeof import("../node_modules/@nuxt/ui/dist/runtime/components/Accordion.vue")['default']>
 export const LazyUAlert: LazyComponent<typeof import("../node_modules/@nuxt/ui/dist/runtime/components/Alert.vue")['default']>
 export const LazyUApp: LazyComponent<typeof import("../node_modules/@nuxt/ui/dist/runtime/components/App.vue")['default']>
