@@ -25,14 +25,40 @@
       </p>
     </div>
 
-    <UForm :state="form" :schema="schema" @submit="handleSubmit" class="space-y-6 bg-white p-6 rounded-xl shadow-md">
-      <UInput v-model="form.name" color="primary" variant="outline" />
-<UInput v-model="form.email" type="email" color="primary" variant="outline" />
-<UTextarea v-model="form.message" color="primary" variant="outline" />
-<UButton type="submit" color="primary" variant="solid" :loading="loading">
-  Send Message
-</UButton>
-
+    <UForm :state="form" :schema="schema" @submit="handleSubmit" class="space-y-6 bg-white p-8 rounded-xl shadow-md">
+      <div class="grid grid-cols-1 gap-6">
+        <UInput
+          v-model="form.name"
+          variant="outline"
+          placeholder="Your Name"
+          class="!bg-gray-100 !text-gray-900"
+        />
+        <UInput
+          v-model="form.email"
+          type="email"
+          color="primary"
+          variant="outline"
+          placeholder="Your Email"
+          class="!bg-gray-100 !text-gray-900"
+        />
+        <UTextarea
+          v-model="form.message"
+          color="primary"
+          variant="outline"
+          placeholder="Your Message"
+          rows="5"
+          class="!bg-gray-100 !text-gray-900"
+        />
+      </div>
+      <div class="flex justify-end">
+        <UButton
+          type="submit"
+          class="bg-[#1181c3] hover:bg-[#0d6fa1] text-white font-semibold px-6 py-2 rounded-lg"
+          :loading="loading"
+        >
+          Send Message
+        </UButton>
+      </div>
     </UForm>
   </section>
 </template>
@@ -66,15 +92,15 @@ const handleSubmit = async () => {
   loading.value = true
 
   try {
-    const { data, error } = await useFetch('https://your-laravel-site.com/api/contact', {
+    const response = await fetch('https://formspree.io/f/mwpqgoqp', {
       method: 'POST',
-      body: form.value,
       headers: {
-        Accept: 'application/json'
-      }
+        'Accept': 'application/json'
+      },
+      body: JSON.stringify(form.value)
     })
 
-    if (data.value?.success) {
+    if (response.ok) {
       toast.add({ title: 'Message sent!', description: 'We’ll get back to you shortly.', color: 'green' })
       form.value = { name: '', email: '', message: '' }
     } else {
